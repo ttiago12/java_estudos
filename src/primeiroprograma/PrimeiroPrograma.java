@@ -10,6 +10,8 @@ package primeiroprograma;
  */
 
 public class PrimeiroPrograma{
+    
+//    psvm- tab 
     public static void main (String[] args){
 //        sout - aperta a tecla tab
         System.out.println("Escreve e pula linha");
