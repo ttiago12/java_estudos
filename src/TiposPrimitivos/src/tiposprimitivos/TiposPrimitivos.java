@@ -39,6 +39,10 @@ public class TiposPrimitivos {
         
          System.out.format("A nota de e %s %.6f \n",nomeT, nota2);
         
+//         para receber numero inteiro
+        int idade = teclado.nextInt();
+        float salario = teclado.nextFloat();
+        
     }
     
     
