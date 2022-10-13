@@ -16,11 +16,14 @@ public class TiposPrimitivos {
     public static void main(String[] args) {
         // TODO code application logic here
         float nota = 8.5f;
+        String nome = "Gustavo";
         float nota1 = (float) 8.5;
-        System.out.print("A nota e "+ nota);
-        System.out.println("");
+        System.out.println("A nota e "+ nota);
+        
         System.out.println("A nota e "+ nota1);
-                
+        
+//        Print formatado , configurando a quantidade de cadas decimais
+        System.out.printf ("A nota de %s %.2f \n",nome, nota);
     }
     
 }
