@@ -40,7 +40,7 @@
                               <Component id="txtDen" alignment="0" max="32767" attributes="0"/>
                               <Component id="txtNum" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="lblRes" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblResto" min="-2" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
                               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                               <Component id="btnDividir" min="-2" max="-2" attributes="0"/>
@@ -80,7 +80,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblRes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblResto" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="13" max="32767" attributes="0"/>
           </Group>
@@ -104,7 +104,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnDividir">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Calcular"/>
+        <Property name="text" type="java.lang.String" value="Dividir"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDividirActionPerformed"/>
@@ -117,7 +117,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Raiz"/>
+        <Property name="text" type="java.lang.String" value="Resto"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblDiv">
@@ -125,7 +125,7 @@
         <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblRes">
+    <Component class="javax.swing.JLabel" name="lblResto">
       <Properties>
         <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
